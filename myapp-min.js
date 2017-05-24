@@ -1,0 +1,2 @@
+var my_namespace={};my_namespace.mypage={init:function(){alert("ok")}},function(){"use strict";var e={exec:function(e,t){var n=my_namespace;t=void 0===t?"init":t,""!==e&&n[e]&&"function"==typeof n[e][t]&&n[e][t]()},init:function(){var t=document.body,n=t.getAttribute("data-controller"),i=t.getAttribute("data-action");e.exec("common"),e.exec(n),e.exec(n,i),e.exec("common","finalize")}};e.init()}();
+//# sourceMappingURL=./myapp-min.js.map
