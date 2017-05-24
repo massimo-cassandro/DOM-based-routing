@@ -5,7 +5,7 @@
 my_namespace.mypage = {
 	init: function() {
 		// JS
-		alert('ok');
+		alert('Triggered from `my_namespace.mypage`');
 	},
 	// action1 : function () {} // enable if you need
 };
